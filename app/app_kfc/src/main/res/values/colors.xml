@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kfc_red">#D81B60</color>
+    <color name="kfc_green">#32CD32</color>
+    <color name="kfc_yellow">#FFD700</color>
+</resources>

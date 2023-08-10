@@ -1,0 +1,3 @@
+include 'app:app_kfc'
+include ':background'
+rootProject.name='kfc'

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ExtraTranslation">
+    <string name="app_name">chucaiji</string>
+    <string name="back">返回</string>
+    <string name="serial_title">串口配置</string>
+    <string name="port_qudongban">驱动板串口</string>
+    <string name="port_qudongban_bote">驱动板波特率</string>
+    <string name="port_rfid">RFID串口</string>
+    <string name="port_rfid_bote">RFID串口波特率</string>
+    <string name="port_485">主从485串口</string>
+    <string name="port_485_bote">主从485串口波特率</string>
+    <string name="background_tcn_delete">删除</string>
+    <string name="background_menu_close">关闭</string>
+    <string name="select_device">请选择要连接的设备</string>
+
+    <string name="scaning"> 正在扫描... ...</string>
+    <string name="button_scan">扫描</string>
+    <string name="button_back">返回</string>
+
+
+    <array name="kfc_action_bom">
+        <item>9~重启</item>
+        <item>10~装载默认参数</item>
+        <item>11~左右X轴移动</item>
+        <item>12~上下Y轴移动</item>
+        <item>13~前后Z轴移动</item>
+        <item>14~提篮旋转轴移动</item>
+        <item>15~夹爪电机移动</item>
+        <item>16~分料电机移动</item>
+        <item>17~推料电机移动</item>
+        <item>18~抖篮电机移动</item>
+        <item>19~执行正常订单</item>
+        <item>20~执行插单订单</item>
+        <item>21~自动测试</item>
+        <item>22~炸炉</item>
+    </array>
+
+
+    <array name="kfc_weght">
+
+        <item>0x3C~读数据</item>
+        <item>0x3E~清零</item>
+        <item>0x41~保存数据变更</item>
+        <item>0x50~设置新校准点</item>
+        <item>0x51~插入新校准点</item>
+        <item>0x54~分度值设置</item>
+        <item>0x55~开机自动清零/零点跟踪</item>
+        <item>0x0C~修改波特率</item>
+        <!--        <item>0x02~读设备MID</item>
+                <item>0x03~读设备MADR</item>
+                <item>0x04~写设备MADR</item>
+                <item>0x3C~读数据</item>
+                <item>0x3D~写数据</item>
+                <item>0x3E~清零</item>
+                <item>0x41~保存数据变更</item>
+                <item>0x50~设置新校准点</item>
+                <item>0x51~插入新校准点</item>
+                <item>0x54~分度值设置</item>
+                <item>0x55~开机自动清零/零点跟踪</item>
+                <item>0x56~继电器控制</item>
+                <item>0x3F~规约切换</item>-->
+    </array>
+    <array name="kfc_weght_AD">
+        <item>0x0A~传感器实时采集AD值</item>
+        <item>0x0C~重量</item>
+        <item>0x0D~净重</item>
+        <item>0x0B~ 原始重量</item>
+        <item>0x0F~零点修正值</item>
+        <item>0x11~扣重</item>
+        <item>0x12~单重</item>
+        <item>0x13~最大量程</item>
+        <item>0x16~分度值</item>
+        <item>0x15~零点AD值</item>
+        <item>0x17~校准数据重量值</item>
+        <item>0x21~校准数据AD值</item>
+    </array>
+
+
+    <array name="kfc_set_parm_drop">
+        <item>1~裹粉薯条开门速度</item>
+        <item>2~裹粉薯条旋转电机速度high</item>
+        <item>3~裹粉薯条旋转电机速度low</item>
+        <item>4~波纹薯条开门电机速度</item>
+        <item>5~波纹薯条旋转电机速度high</item>
+        <item>6~波纹薯条旋转电机速度low</item>
+        <item>7~黄金鸡块开门电机速度</item>
+        <item>8~黄金鸡块旋转电机速度high</item>
+        <item>9~黄金鸡块旋转电机速度low</item>
+        <item>10~推篮扫描步进电机速度high</item>
+        <item>11~推篮扫描步进电机速度low</item>
+        <item>12~推篮推杆电机速度</item>
+        <item>13~插单推杆电机速度</item>
+        <item>14~裹粉薯条减速值，裹粉薯条停止值</item>
+        <item>15~波纹薯条减速值，波纹薯条停止值</item>
+        <item>16~设置黄金鸡块误差等级，黄金鸡块单块重量</item>
+        <item>17~读取目前篮子数量</item>
+        <item>18~落料开门延时时间设置，1ms</item>
+        <item>19~查询裹粉薯条称重后的实际出料重量</item>
+        <item>20~查询黄金鸡块称重后的实际出料块数，1ms</item>
+        <item>21~查询波纹薯条称重后的实际出料重量</item>
+        <item>22~黄金鸡块减速值，黄金鸡块停止值</item>
+        <item>101~裹粉薯条单份数量</item>
+        <item>102~黄金鸡块单份数量</item>
+        <item>103~波纹薯条单份数量</item>
+    </array>
+
+
+    <array name="kfc_set_parm_bom">
+        <item>1~设置炉1荤素</item>
+        <item>2~设置炉2荤素</item>
+        <item>3~设置炉3荤素</item>
+        <item>4~设置炉4荤素</item>
+        <item>5~~步进原点较正幅度</item>
+        <item>6~~无刷原点较正幅度</item>
+        <item>7~~炸炉中心间距</item>
+        <item>8~~松爪后X轴向左避让距离</item>
+        <item>9~~插入炸炉前Z轴预留距离</item>
+        <item>10~~插入滤油前Z轴预留距离</item>
+        <item>11~~插入炸炉前Y轴预留距离</item>
+        <item>12~~爪夹紧距离</item>
+        <item>13~~爪起始位置细分</item>
+        <item>14~~旋转倒料最大距离</item>
+        <item>15~~X落料取篮位置</item>
+        <item>16~~X炸炉1位置</item>
+        <item>17~~X炸炉2位置</item>
+        <item>18~~X炸炉3位置</item>
+        <item>19~~X插单完成放置位置</item>
+        <item>20~~X分料动作起始位置</item>
+        <item>21~~X分料动作最右位置</item>
+        <item>22~~Y落料取篮位置</item>
+        <item>23~~Y插单取篮位置</item>
+        <item>24~~Y炸炉位置</item>
+        <item>25~~Y滤油位置</item>
+        <item>26~~Y插单完成放置位置</item>
+        <item>27~~Y分料动作起始位置</item>
+        <item>28~~Y分料动作最低位置</item>
+        <item>29~~Z落料取篮位置</item>
+        <item>30~~Z插单取篮位置</item>
+        <item>31~~Z炸炉位置</item>
+        <item>32~~Z滤油位置</item>
+        <item>33~~Z滤油避让安全位置</item>
+        <item>34~~Z插单完成放置位置</item>
+        <item>35~~Z1鸡块分料位置</item>
+        <item>36~~Z2直薯分料位置</item>
+        <item>37~~Z3波纹分料位置</item>
+        <item>38~~分料1鸡块位置</item>
+        <item>39~~分料2直薯位置</item>
+        <item>40~~分类3波纹位置</item>
+    </array>
+
+
+    <string name="confirm">确认</string>
+    <string name="cancle">取消</string>
+    <string name="chooese">选择</string>
+    <string name="base_saving">保存</string>
+
+    <array name="kfc_action">
+        <item>1~裹粉薯条称重并下料</item>
+        <item>2~黄金鸡块称重并下料</item>
+        <item>3~波纹薯条称重并下料</item>
+        <item>101~裹粉薯条开门电机控制</item>
+        <item>103~波纹薯条开门电机控制</item>
+        <item>105~黄金鸡块开门电机控制</item>
+
+        <item>4~扫描篮子位置</item>
+        <item>5~下料并传输</item>
+        <item>6~插单命令到几号油炸位</item>
+        <item>7~出货命令</item>
+        <item>8~1号板上电复位命令</item>
+        <item>9~倒料后1号板篮子送回</item>
+        <item>10~恢复出厂参数设置</item>
+        <item>11~清空裹粉薯条料斗</item>
+        <item>12~清空黄金鸡块料斗</item>
+        <item>13~清空波纹薯条料斗</item>
+
+
+        <item>102~裹粉薯条旋转电机控制</item>
+        <item>104~波纹薯条旋转电机控制</item>
+        <item>106~黄金鸡块旋转电机控制</item>
+        <item>107~扫描步进电机控制</item>
+        <item>108~挂篮推杆电机控制</item>
+        <item>109~插单推杆电机控制</item>
+        <item>109~插单推杆电机控制</item>
+        <item>255~立即停止所有动作</item>
+    </array>
+    <array name="kfc_error_other">
+        <item>19001~接口参数异常</item>
+        <item>19002~落料模块串口通讯故障~关机-->开机</item>
+        <item>19003~油炸桁架模块通讯故障~关机-->开机</item>
+        <item>19004~订单号异常</item>
+        <item>19005~参数格式校验失败</item>
+        <item>19006~程序初始化失败~关机-->开机</item>
+        <item>19007~对应产品在油炸中</item>
+        <item>19008~油炸类型产品不存在</item>
+        <item>19009~生成指令参数异常</item>
+        <item>19010~设置自动模式参数异常</item>
+        <item>19011~配置荤素炸锅参数异常</item>
+        <item>19012~油炸订单失败</item>
+        <item>19013~订单异常</item>
+        <item>29014~设备在扫篮，请等待</item>
+        <item>19015~没有找到篮子，无法油炸~关机-->开机</item>
+        <item>29016~该订单已经在执行中~请等待</item>
+        <item>19017~设备已断电，该订单中止~请等待</item>
+        <item>19018~设备已断电，当前制作中止~请等待</item>
+        <item>19019~设备上电初始化中~请等待</item>
+        <item>19020~炸炉准备中...~请等待</item>
+        <item>29021~冰箱温度过高</item>
+    </array>
+
+    <array name="kfc_errorcode_dorp">
+        <item>10~裹粉薯条落料超时~检查料斗，点击清除故障</item>
+        <item>11~波纹薯条落料超时~检查料斗，点击清除故障</item>
+        <item>12~黄金鸡块落料超时~检查料斗，点击清除故障</item>
+        <item>13~裹粉薯条关门检测开关异常~关机-->检查裹粉薯条门-->开机</item>
+        <item>14~波纹薯条关门检测开关异常~关机-->检查波纹薯条门-->开机</item>
+        <item>15~黄金鸡块关门检测开关异常~关机-->检查黄金鸡块门-->开机</item>
+        <item>16~落料时裹粉薯条未关闭~关机-->检查裹粉薯条门-->开机</item>
+        <item>17~落料时波纹薯条门未关闭~关机-->检查波纹薯条门-->开机</item>
+        <item>18~落料时黄金鸡块门未关闭~关机-->检查黄金鸡块门-->开机</item>
+        <item>19~插单推杆故障~关机-->检查插单推杆-->开机</item>
+        <item>20~回篮未扫描到篮子~关机-->检查篮子位置-->开机</item>
+        <item>101~裹粉薯条低料位报警~加料</item>
+        <item>102~黄金鸡块低料位报警~加料</item>
+        <item>103~波纹薯条低料位报警~加料</item>
+        <item>200~没有篮子报警~关机-->挂好3个篮子-->开机</item>
+        <item>201~篮子超过3个报警~关机-->挂好3个篮子-->开机</item>
+        <item>202~丢篮报警~关机-->挂好3个篮子-->开机</item>
+        <item>203~已有3个篮子，不能执行回篮命令~关机-->检查篮子数量-->开机</item>
+        <item>204~有篮子未挂好~关机-->挂好3个篮子-->开机</item>
+        <item>205~篮子不够3个~关机-->挂好3个篮子-->开机</item>
+        <item>301~裹粉薯条无货~关机-->加料，点击清除故障</item>
+        <item>302~黄金鸡块无货~关机-->加料，点击清除故障</item>
+        <item>303~波纹薯条无货~关机-->加料，点击清除故障</item>
+    </array>
+    <array name="kfc_errorcode_bom">
+        <item>2~炸炉通迅故障~关机-->检查炸炉是否开启-->开机</item>
+        <item>3~炸炉温度异常~关机-->检查炸炉是否开启-->开机</item>
+        <item>4~炸炉状态异常~关机-->检查炸炉是否开启-->开机</item>
+        <item>5~X左右原点开关异常~关机-->将桁架手动往右移动10厘米后-->开机</item>
+        <item>6~Y上下原点开关异常~关机-->开机</item>
+        <item>7~Z前后原点开关异常~关机-->开机</item>
+        <item>8~爪原点开关异常~关机-->开机</item>
+        <item>9~保温槽原点开关异常~关机-->开机</item>
+        <item>10~抖篮原点开关异常~关机-->开机</item>
+        <item>11~倒料原点开关异常~关机-->开机</item>
+        <item>12~分料原点开关异常~关机-->开机</item>
+        <item>13~X左右电机异常或断开~关机-->开机</item>
+        <item>14~Y上下电机异常或断开~关机-->开机</item>
+        <item>15~Z前后电机异常或断开~关机-->开机</item>
+        <item>16~爪电机异常或断开~关机-->开机</item>
+        <item>17~保温槽电机异常或断开~关机-->开机</item>
+        <item>18~抖篮电机异常或断开~关机-->开机</item>
+        <item>19~倒料电机异常或断开~关机-->开机</item>
+        <item>20~分料电机异常或断开~关机-->开机</item>
+        <item>21~X左右电机过流~关机-->开机</item>
+        <item>22~Y上下电机过流~关机-->开机</item>
+        <item>23~Z前后电机过流~关机-->开机</item>
+        <item>24~爪电机过流~关机-->开机</item>
+        <item>25~保温槽电机过流~关机-->检查薯条推板是否卡住-->开机</item>
+        <item>26~抖篮电机过流~关机-->检查抖篮杆是否安装到位-->开机</item>
+        <item>27~倒料电机过流~关机-->检查夹爪位置是否正确-->开机</item>
+        <item>28~分料电机过流~关机-->检查分料斗是否卡住-->开机</item>
+        <item>29~夹爪处无篮子~关机-->开机</item>
+        <item>30~桁架提篮处未抓取到篮子~关机-->开机</item>
+        <item>31~炸炉处未抓取到篮子~关机-->开机</item>
+        <item>32~滤油处未抓取到篮子~关机-->开机</item>
+        <item>33~篮子中途掉落~关机-->开机</item>
+        <item>34~炸炉未安装到位~关机-->检查炸炉限位杆-->开机</item>
+        <item>35~滤油杆缺失~关机-->检查滤油杆-->开机</item>
+        <item>36~夹爪未松开~关机-->检查夹爪-->开机</item>
+        <item>37~回篮冲突~关机-->开机</item>
+        <item>38~插单完成后未检测到篮子~关机-->开机</item>
+        <item>700~黄金鸡块盘缺失~放好鸡块盘</item>
+        <item>701~插单完成未取走~拿走插单篮子</item>
+    </array>
+
+
+    <array name="csj_action">
+        <item>0x01~电机停止</item>
+        <item>0x02~电机正转</item>
+        <item>0x03~电机反转</item>
+        <item>0x04~关闭LED</item>
+        <item>0x05~开启LED</item>
+        <item>0x06~出货口LED颜色设置R:G:B</item>
+        <item>0x07~出货口LED颜色设置R:B:G</item>
+        <item>0x08~出货口LED颜色设置G:R:B</item>
+        <item>0x09~出货口LED颜色设置G:B:R</item>
+        <item>0x0A~出货口LED颜色设置B:R:G</item>
+        <item>0x0B~出货口LED颜色设置B:G:R</item>
+        <item>0x0C~出货口LED颜色设置R:R:R</item>
+        <item>0x0D~出货口LED颜色设置R:R:G</item>
+        <item>0x0E~出货口LED颜色设置R:R:B</item>
+        <item>0X0F~出货口LED颜色设置R:G:R</item>
+        <item>0X10~出货口LED颜色设置R:B:R</item>
+        <item>0x11~出货口LED颜色设置R:G:G</item>
+        <item>0x12~出货口LED颜色设置R:B:B</item>
+        <item>0x13~出货口LED颜色设置G:G:G</item>
+        <item>0x14~出货口LED颜色设置G:G:R</item>
+        <item>0x15~出货口LED颜色设置G:G:B</item>
+        <item>0X16~出货口LED颜色设置G:R:G</item>
+        <item>0X17~出货口LED颜色设置G:B:G</item>
+        <item>0x18~出货口LED颜色设置G:R:R</item>
+        <item>0x19~出货口LED颜色设置G:B:B</item>
+        <item>0x1A~出货口LED颜色设置B:B:B</item>
+        <item>0x1B~出货口LED颜色设置B:B:R</item>
+        <item>0x1C~出货口LED颜色设置B:B:G</item>
+        <item>0X1D~出货口LED颜色设置B:R:B</item>
+        <item>0X1E~出货口LED颜色设置B:G:B</item>
+        <item>0x1F~出货口LED颜色设置B:R:R</item>
+        <item>0x20~出货口LED颜色设置B:G:G</item>
+        <item>0x21~后尾板绿色LED1常亮</item>
+        <item>0X22~后尾板绿色LED1闪烁</item>
+        <item>0X23~后尾板绿色LED1熄灭</item>
+        <item>0X24~后尾板绿色LED2常亮</item>
+        <item>0X25~后尾板绿色LED2闪烁</item>
+        <item>0X26~后尾板绿色LED2熄灭</item>
+        <item>0X27~后尾板绿色LED3常亮</item>
+        <item>0X28~后尾板绿色LED3闪烁</item>
+        <item>0X29~后尾板绿色LED3熄灭</item>
+        <item>0X2A~后尾板红色LED1常亮</item>
+        <item>0X2B~后尾板红色LED1闪烁</item>
+        <item>0X2C~后尾板红色LED1熄灭</item>
+        <item>0X2D~后尾板红色LED2常亮</item>
+        <item>0X2E~后尾板红色LED2闪烁</item>
+        <item>0X2F~后尾板红色LED2熄灭</item>
+        <item>0X30~后尾板红色LED3常亮</item>
+        <item>0X31~后尾板红色LED3闪烁</item>
+        <item>0X32~后尾板红色LED3熄灭</item>
+        <item>0X33~后尾板蜂鸣器常响</item>
+        <item>0X34~后尾板蜂鸣器间隔响</item>
+        <item>0X35~后尾板蜂鸣器停止</item>
+        <item>0X36~升降台货道1推杆前推</item>
+        <item>0X37~升降台货道1推杆后退</item>
+        <item>0X38~升降台货道2推杆前推</item>
+        <item>0X39~升降台货道2推杆后退</item>
+        <item>0X3A~升降台货道3推杆前推</item>
+        <item>0X3B~升降台货道3推杆后退</item>
+        <item>0X3C~升降台货道1爪转动顺时针旋转90°</item>
+        <item>0X3D~升降台货道1爪转动逆时针旋转90°</item>
+        <item>0X3E~升降台货道2爪转动顺时针旋转90°</item>
+        <item>0X3F~升降台货道2爪转动逆时针旋转90°</item>
+        <item>0X40~升降台货道3爪转动顺时针旋转90°</item>
+        <item>0X41~升降台货道3爪转动逆时针旋转90°</item>
+        <item>0X42~升降台货道1皮带轮顺时针旋转</item>
+        <item>0X43~升降台货道1皮带轮逆时针旋转</item>
+        <item>0X44~升降台货道1皮带轮停止</item>
+        <item>0X45~升降台货道2皮带轮顺时针旋转</item>
+        <item>0X46~升降台货道2皮带轮逆时</item>
+    </array>
+
+    <array name="csj_action_local">
+        <item>0x10~后尾板1</item>
+        <item>0x11~后尾板2</item>
+        <item>0x12~后尾板3</item>
+        <item>0x13~后尾板4</item>
+        <item>0x14~后尾板5</item>
+        <item>0x15~后尾板6</item>
+        <item>0x16~后尾板7</item>
+        <item>0x17~后尾板8</item>
+        <item>0x18~后尾板9</item>
+        <item>0x19~后尾板10</item>
+        <item>0x1a~后尾板11</item>
+        <item>0x1b~后尾板12</item>
+        <item>0x1c~后尾板13</item>
+        <item>0x20~后尾板14</item>
+        <item>0x21~后尾板15</item>
+        <item>0x22~后尾板16</item>
+        <item>0x23~后尾板17</item>
+        <item>0x24~后尾板18</item>
+        <item>0x25~后尾板19</item>
+        <item>0x26~后尾板20</item>
+        <item>0x27~后尾板21</item>
+        <item>0x28~后尾板22</item>
+        <item>0x29~后尾板23</item>
+        <item>0x2a~后尾板24</item>
+        <item>0x2b~后尾板25</item>
+        <item>0x2c~后尾板26</item>
+        <item>0x30~升降台1</item>
+        <item>0x31~升降台2</item>
+        <item>0x40~升降电机1</item>
+        <item>0x41~升降电机2</item>
+        <item>0x42~门电机1</item>
+        <item>0x43~门电机2</item>
+        <item>0x50~照明LED
+        </item>
+        <item>0x51~出货口LED</item>
+    </array>
+
+
+</resources>

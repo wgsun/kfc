@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_hint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hint_tv_msg"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150px"
+        android:background="@drawable/shape_rect_gray_white"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20px" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="300px"
+        android:layout_height="80px"
+        android:layout_below="@id/hint_tv_msg"
+        android:layout_centerHorizontal="true"
+        android:text="关闭" />
+
+</RelativeLayout>

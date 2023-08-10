@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <color name="white">#ffffff</color>
+    <!-- 暗灰蓝色 -->
+    <color name="steelblue">#4682B4</color>
+
+    <color name="color_333333">#333333</color>
+
+
+    <color name="blue">#108ee9</color>
+    <color name="whitesmoke">#F5F5F5</color>
+
+    <!-- 西红柿色 -->
+    <color name="orangered">#FF4500</color>
+
+    <color name="red">#ffff0000</color>
+
+    <color name="transparentBlack">#6D000000</color>
+
+    <color name="black">#ff000000</color>
+
+    <color name="grey">#666666</color>
+    <color name="test">#e9e9e9</color>
+
+
+    <color name="green">#048E2C</color>
+
+    <color name="ui_transparentBlack">#6D000000</color>
+    <color name="ui_gray_2">#CCCCCC</color>
+
+    <!-- 自定义Gallery+ListView页面用到的颜色Start -->
+    <color name="ui_alpha">#00000000</color>
+    <color name="ui_black">#ff000000</color>
+    <color name="ui_blue">#ff0000ff</color>
+    <color name="ui_green">#ff00ff00</color>
+    <color name="ui_red">#ffff0000</color>
+    <color name="ui_higtlight">#ff0078f0</color>
+    <color name="ui_durationtext">#ff7d7d7d</color>
+    <color name="ui_title">#ff274462</color>
+    <color name="ui_textColor">#825f4b</color>
+    <color name="ui_texttitlecolor">#f4ae00</color>
+    <color name="ui_titelblue">#2795c1</color>
+    <color name="ui_layout1">#7bd5f9</color>
+    <!-- 自定义Gallery+ListView页面用到的颜色End -->
+
+
+    <!-- 自定义控件侧边栏需要用到的颜色Start -->
+    <color name="ui_rbm_menu_background">#303030</color>
+    <color name="ui_rbm_item_text_color">#ffffff</color>
+    <!-- 自定义控件侧边栏需要用到的颜色End -->
+
+    <!-- 自定义Loding_Dialog_Start -->
+    <color name="bocop_dialog_bg">#80000000</color>
+    <!-- 自定义Loding_Dialog_End -->
+
+    <!-- 白色 -->
+    <color name="ui_ivory">#FFFFF0</color>
+    <!-- 象牙色 -->
+    <color name="ui_lightyellow">#FFFFE0</color>
+    <!-- 亮黄色 -->
+    <color name="ui_yellow">#FFFF00</color>
+    <!-- 黄色 -->
+    <color name="ui_snow">#FFFAFA</color>
+    <!-- 雪白色 -->
+    <color name="ui_floralwhite">#FFFAF0</color>
+    <!-- 花白色 -->
+    <color name="ui_lemonchiffon">#FFFACD</color>
+    <!-- 柠檬绸色 -->
+    <color name="ui_cornsilk">#FFF8DC</color>
+    <!-- 米绸色 -->
+    <color name="ui_seashell">#FFF5EE</color>
+    <!-- 海贝色 -->
+    <color name="ui_lavenderblush">#FFF0F5</color>
+    <!-- 淡紫红 -->
+    <color name="ui_papayawhip">#FFEFD5</color>
+    <!-- 番木色 -->
+    <color name="ui_blanchedalmond">#FFEBCD</color>
+    <!-- 白杏色 -->
+    <color name="ui_mistyrose">#FFE4E1</color>
+    <!-- 浅玫瑰色 -->
+    <color name="ui_bisque">#FFE4C4</color>
+    <!-- 桔黄色 -->
+    <color name="ui_moccasin">#FFE4B5</color>
+    <!-- 鹿皮色 -->
+    <color name="ui_navajowhite">#FFDEAD</color>
+    <!-- 纳瓦白 -->
+    <color name="ui_peachpuff">#FFDAB9</color>
+    <!-- 桃色 -->
+    <!-- 金色 -->
+    <color name="ui_pink">#FFC0CB</color>
+    <!-- 粉红色 -->
+    <color name="ui_lightpink">#FFB6C1</color>
+    <!-- 亮粉红色 -->
+    <!-- 橙色 -->
+    <color name="ui_lightsalmon">#FFA07A</color>
+    <!-- 亮肉色 -->
+    <color name="ui_darkorange">#FF8C00</color>
+    <!-- 暗桔黄色 -->
+    <color name="ui_coral">#FF7F50</color>
+    <!-- 珊瑚色 -->
+    <color name="ui_hotpink">#FF69B4</color>
+    <!-- 热粉红色 -->
+    <color name="ui_tomato">#FF6347</color>
+    <!-- 西红柿色 -->
+    <color name="ui_orangered">#FF4500</color>
+    <!-- 红橙色 -->
+    <color name="ui_deeppink">#FF1493</color>
+    <!-- 深粉红色 -->
+    <color name="ui_fuchsia">#FF00FF</color>
+    <!-- 紫红色 -->
+    <color name="ui_magenta">#FF00FF</color>
+    <!-- 红紫色 -->
+    <!-- 红色 -->
+    <color name="ui_oldlace">#FDF5E6</color>
+    <!-- 老花色 -->
+    <color name="ui_lightgoldenrodyellow">#FAFAD2</color>
+    <!-- 亮金黄色 -->
+    <color name="ui_linen">#FAF0E6</color>
+    <!-- 亚麻色 -->
+    <color name="ui_antiquewhite">#FAEBD7</color>
+    <!-- 古董白 -->
+    <color name="ui_salmon">#FA8072</color>
+    <!-- 鲜肉色 -->
+    <color name="ui_ghostwhite">#F8F8FF</color>
+    <!-- 幽灵白 -->
+    <color name="ui_mintcream">#F5FFFA</color>
+    <!-- 薄荷色 -->
+    <color name="ui_whitesmoke">#F5F5F5</color>
+    <!-- 烟白色 -->
+    <color name="ui_beige">#F5F5DC</color>
+    <!-- 米色 -->
+    <color name="ui_wheat">#F5DEB3</color>
+    <!-- 浅黄色 -->
+    <color name="ui_sandybrown">#F4A460</color>
+    <!-- 沙褐色 -->
+    <color name="ui_azure">#F0FFFF</color>
+    <!-- 天蓝色 -->
+    <color name="ui_honeydew">#F0FFF0</color>
+    <!-- 蜜色 -->
+    <color name="ui_aliceblue">#F0F8FF</color>
+    <!-- 艾利斯兰 -->
+    <color name="ui_khaki">#F0E68C</color>
+    <!-- 黄褐色 -->
+    <color name="ui_lightcoral">#F08080</color>
+    <!-- 亮珊瑚色 -->
+    <color name="ui_palegoldenrod">#EEE8AA</color>
+    <!-- 苍麒麟色 -->
+    <color name="ui_violet">#EE82EE</color>
+    <!-- 紫罗兰色 -->
+    <color name="ui_darksalmon">#E9967A</color>
+    <!-- 暗肉色 -->
+    <color name="ui_lavender">#E6E6FA</color>
+    <!-- 淡紫色 -->
+    <color name="ui_lightcyan">#E0FFFF</color>
+    <!-- 亮青色 -->
+    <color name="ui_burlywood">#DEB887</color>
+    <!-- 实木色 -->
+    <color name="ui_plum">#DDA0DD</color>
+    <!-- 洋李色 -->
+    <color name="ui_gainsboro">#DCDCDC</color>
+    <!-- 淡灰色 -->
+    <color name="ui_crimson">#DC143C</color>
+    <!-- 暗深红色 -->
+    <color name="ui_palevioletred">#DB7093</color>
+    <!-- 苍紫罗兰色 -->
+    <color name="ui_goldenrod">#DAA520</color>
+    <!-- 金麒麟色 -->
+    <color name="ui_orchid">#DA70D6</color>
+    <!-- 淡紫色 -->
+    <color name="ui_thistle">#D8BFD8</color>
+    <!-- 蓟色 -->
+    <color name="ui_lightgray">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <color name="ui_lightgrey">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <color name="ui_tan">#D2B48C</color>
+    <!-- 茶色 -->
+    <color name="ui_chocolate">#D2691E</color>
+    <!-- 巧可力色 -->
+    <color name="ui_peru">#CD853F</color>
+    <!-- 秘鲁色 -->
+    <color name="ui_indianred">#CD5C5C</color>
+    <!-- 印第安红 -->
+    <color name="ui_mediumvioletred">#C71585</color>
+    <!-- 中紫罗兰色 -->
+    <color name="ui_silver">#C0C0C0</color>
+    <!-- 银色 -->
+    <color name="ui_darkkhaki">#BDB76B</color>
+    <!-- 暗黄褐色 -->
+    <color name="ui_rosybrown">#BC8F8F</color>
+    <!-- 褐玫瑰红 -->
+    <color name="ui_mediumorchid">#BA55D3</color>
+    <!-- 中粉紫色 -->
+    <color name="ui_darkgoldenrod">#B8860B</color>
+    <!-- 暗金黄色 -->
+    <color name="ui_firebrick">#B22222</color>
+    <!-- 火砖色 -->
+    <color name="ui_powderblue">#B0E0E6</color>
+    <!-- 粉蓝色 -->
+    <color name="ui_lightsteelblue">#B0C4DE</color>
+    <!-- 亮钢兰色 -->
+    <color name="ui_paleturquoise">#AFEEEE</color>
+    <!-- 苍宝石绿 -->
+    <color name="ui_greenyellow">#ADFF2F</color>
+    <!-- 黄绿色 -->
+    <color name="ui_lightblue">#ADD8E6</color>
+    <!-- 亮蓝色 -->
+    <color name="ui_darkgray">#A9A9A9</color>
+    <!-- 暗灰色 -->
+    <color name="ui_darkgrey">#A9A9A9</color>
+    <!-- 暗灰色 -->
+    <color name="ui_brown">#A52A2A</color>
+    <!-- 褐色 -->
+    <color name="ui_sienna">#A0522D</color>
+    <!-- 赭色 -->
+    <color name="ui_darkorchid">#9932CC</color>
+    <!-- 暗紫色 -->
+    <color name="ui_palegreen">#98FB98</color>
+    <!-- 苍绿色 -->
+    <color name="ui_darkviolet">#9400D3</color>
+    <!-- 暗紫罗兰色 -->
+    <color name="ui_mediumpurple">#9370DB</color>
+    <!-- 中紫色 -->
+    <color name="ui_lightgreen">#90EE90</color>
+    <!-- 亮绿色 -->
+    <color name="ui_darkseagreen">#8FBC8F</color>
+    <!-- 暗海兰色 -->
+    <color name="ui_saddlebrown">#8B4513</color>
+    <!-- 重褐色 -->
+    <color name="ui_darkmagenta">#8B008B</color>
+    <!-- 暗洋红 -->
+    <color name="ui_darkred">#8B0000</color>
+    <!-- 暗红色 -->
+    <color name="ui_blueviolet">#8A2BE2</color>
+    <!-- 紫罗兰蓝色 -->
+    <color name="ui_lightskyblue">#87CEFA</color>
+    <!-- 亮天蓝色 -->
+    <color name="ui_skyblue">#87CEEB</color>
+    <!-- 天蓝色 -->
+    <color name="ui_gray">#808080</color>
+    <!-- 灰色 -->
+    <color name="ui_grey">#808080</color>
+    <!-- 灰色 -->
+    <color name="ui_olive">#808000</color>
+    <!-- 橄榄色 -->
+    <color name="ui_purple">#800080</color>
+    <!-- 紫色 -->
+    <color name="ui_maroon">#800000</color>
+    <!-- 粟色 -->
+    <color name="ui_aquamarine">#7FFFD4</color>
+    <!-- 碧绿色 -->
+    <color name="ui_chartreuse">#7FFF00</color>
+    <!-- 黄绿色 -->
+    <color name="ui_lawngreen">#7CFC00</color>
+    <!-- 草绿色 -->
+    <color name="ui_mediumslateblue">#7B68EE</color>
+    <!-- 中暗蓝色 -->
+    <color name="ui_lightslategray">#778899</color>
+    <!-- 亮蓝灰 -->
+    <color name="ui_lightslategrey">#778899</color>
+    <!-- 亮蓝灰 -->
+    <color name="ui_slategray">#708090</color>
+    <!-- 灰石色 -->
+    <color name="ui_slategrey">#708090</color>
+    <!-- 灰石色 -->
+    <color name="ui_olivedrab">#6B8E23</color>
+    <!-- 深绿褐色 -->
+    <color name="ui_slateblue">#6A5ACD</color>
+    <!-- 石蓝色 -->
+    <color name="ui_dimgray">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="ui_dimgrey">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="ui_mediumaquamarine">#66CDAA</color>
+    <!-- 中绿色 -->
+    <color name="ui_cornflowerblue">#6495ED</color>
+    <!-- 菊兰色 -->
+    <color name="ui_cadetblue">#5F9EA0</color>
+    <!-- 军兰色 -->
+    <color name="ui_darkolivegreen">#556B2F</color>
+    <!-- 暗橄榄绿 -->
+    <color name="ui_indigo">#4B0082</color>
+    <!-- 靛青色 -->
+    <color name="ui_mediumturquoise">#48D1CC</color>
+    <!-- 中绿宝石 -->
+    <color name="ui_darkslateblue">#483D8B</color>
+    <!-- 暗灰蓝色 -->
+    <color name="ui_steelblue">#4682B4</color>
+    <!-- 钢兰色 -->
+    <color name="ui_royalblue">#4169E1</color>
+    <!-- 皇家蓝 -->
+    <color name="ui_turquoise">#40E0D0</color>
+    <!-- 青绿色 -->
+    <color name="ui_mediumseagreen">#3CB371</color>
+    <!-- 中海蓝 -->
+    <color name="ui_limegreen">#32CD32</color>
+    <!-- 橙绿色 -->
+    <color name="ui_darkslategray">#2F4F4F</color>
+    <!-- 暗瓦灰色 -->
+    <color name="ui_darkslategrey">#2F4F4F</color>
+    <!-- 暗瓦灰色 -->
+    <color name="ui_seagreen">#2E8B57</color>
+    <!-- 海绿色 -->
+    <color name="ui_forestgreen">#228B22</color>
+    <!-- 森林绿 -->
+    <color name="ui_lightseagreen">#20B2AA</color>
+    <!-- 亮海蓝色 -->
+    <color name="ui_dodgerblue">#1E90FF</color>
+    <!-- 闪兰色 -->
+    <color name="ui_midnightblue">#191970</color>
+    <!-- 中灰兰色 -->
+    <color name="ui_aqua">#00FFFF</color>
+    <!-- 浅绿色 -->
+    <color name="ui_cyan">#00FFFF</color>
+    <!-- 青色 -->
+    <color name="ui_springgreen">#00FF7F</color>
+    <!-- 春绿色 -->
+    <color name="ui_lime">#00FF00</color>
+    <!-- 酸橙色 -->
+    <color name="ui_mediumspringgreen">#00FA9A</color>
+    <!-- 中春绿色 -->
+    <color name="ui_darkturquoise">#00CED1</color>
+    <!-- 暗宝石绿 -->
+    <color name="ui_deepskyblue">#00BFFF</color>
+    <!-- 深天蓝色 -->
+    <color name="ui_darkcyan">#008B8B</color>
+    <!-- 暗青色 -->
+    <color name="ui_teal">#008080</color>
+    <!-- 水鸭色 -->
+    <!-- 绿色 -->
+    <color name="ui_darkgreen">#006400</color>
+    <!-- 暗绿色 -->
+    <!-- 蓝色 -->
+    <color name="ui_mediumblue">#0000CD</color>
+    <!-- 中兰色 -->
+    <color name="ui_darkblue">#00008B</color>
+    <!-- 暗蓝色 -->
+    <color name="ui_navy">#000080</color>
+    <!-- 海军色 -->
+    <!-- 黑色 -->
+
+
+    <!-- GViewPager的Start -->
+    <color name="ui_lucensy">#00000001</color>
+    <color name="ui_translucency">#e0000000</color>
+    <color name="ui_orange">#ffa500</color>
+    <!-- <color name="red">#bf242a</color> -->
+    <color name="ui_transparent">#00000000</color>
+    <color name="ui_light_orange">#fcb75c</color>
+    <color name="ui_alpha_00">#00000000</color>
+    <color name="ui_trans">#50000000</color>
+    <color name="ui_background">#e5e5e5</color>
+    <color name="ui_transparent_background">#50000000</color>
+    <color name="ui_text_gray">#4F4F4F</color>
+    <color name="ui_grey21">#363636</color>
+    <color name="ui_gold">#b89766</color>
+    <!-- GViewPager的End -->
+
+    <color name="ui_main_background">#d3d3d3</color>
+    <color name="ui_text_color">#ffffff</color>
+    <color name="ui_text_background">#9f9f9f</color>
+    <color name="ui_text_color_black">#000000</color>
+    <color name="ui_text_color_dialog">#6F6868</color>
+    <color name="ui_text_color_dialog_title">#4e5d72</color>
+    <color name="ui_text_color_blue">#4fc1e9</color>
+    <color name="ui_holo_blue">#FF33E5B5</color>
+
+    <color name="ui_base_transparentBlack">#6D000000</color>
+    <color name="ui_base_gray_2">#CCCCCC</color>
+
+    <!-- 自定义Gallery+ListView页面用到的颜色Start -->
+    <color name="ui_base_alpha">#00000000</color>
+    <color name="ui_base_black">#ff000000</color>
+    <color name="ui_base_blue">#ff0000ff</color>
+    <color name="ui_base_green">#ff00ff00</color>
+    <color name="ui_base_red">#ffff0000</color>
+    <color name="ui_base_higtlight">#ff0078f0</color>
+    <color name="ui_base_durationtext">#ff7d7d7d</color>
+    <color name="ui_base_title">#ff274462</color>
+    <color name="ui_base_textColor">#825f4b</color>
+    <color name="ui_base_texttitlecolor">#f4ae00</color>
+    <color name="ui_base_titelblue">#2795c1</color>
+    <color name="ui_base_layout1">#7bd5f9</color>
+    <!-- 自定义Gallery+ListView页面用到的颜色End -->
+
+
+    <!-- 自定义控件侧边栏需要用到的颜色Start -->
+    <color name="ui_base_rbm_menu_background">#303030</color>
+    <color name="ui_base_rbm_item_text_color">#ffffff</color>
+    <!-- 自定义控件侧边栏需要用到的颜色End -->
+
+    <!-- 自定义Loding_Dialog_Start -->
+    <color name="ui_base_bocop_dialog_bg">#80000000</color>
+    <!-- 自定义Loding_Dialog_End -->
+
+    <!-- 白色 -->
+    <color name="ui_base_ivory">#FFFFF0</color>
+    <!-- 象牙色 -->
+    <color name="ui_base_lightyellow">#FFFFE0</color>
+    <!-- 亮黄色 -->
+    <color name="ui_base_yellow">#FFFF00</color>
+    <!-- 黄色 -->
+    <color name="ui_base_snow">#FFFAFA</color>
+    <!-- 雪白色 -->
+    <color name="ui_base_floralwhite">#FFFAF0</color>
+    <!-- 花白色 -->
+    <color name="ui_base_lemonchiffon">#FFFACD</color>
+    <!-- 柠檬绸色 -->
+    <color name="ui_base_cornsilk">#FFF8DC</color>
+    <!-- 米绸色 -->
+    <color name="ui_base_seashell">#FFF5EE</color>
+    <!-- 海贝色 -->
+    <color name="ui_base_lavenderblush">#FFF0F5</color>
+    <!-- 淡紫红 -->
+    <color name="ui_base_papayawhip">#FFEFD5</color>
+    <!-- 番木色 -->
+    <color name="ui_base_blanchedalmond">#FFEBCD</color>
+    <!-- 白杏色 -->
+    <color name="ui_base_mistyrose">#FFE4E1</color>
+    <!-- 浅玫瑰色 -->
+    <color name="ui_base_bisque">#FFE4C4</color>
+    <!-- 桔黄色 -->
+    <color name="ui_base_moccasin">#FFE4B5</color>
+    <!-- 鹿皮色 -->
+    <color name="ui_base_navajowhite">#FFDEAD</color>
+    <!-- 纳瓦白 -->
+    <color name="ui_base_peachpuff">#FFDAB9</color>
+    <!-- 桃色 -->
+    <!-- 金色 -->
+    <color name="ui_base_pink">#FFC0CB</color>
+    <!-- 粉红色 -->
+    <color name="ui_base_lightpink">#FFB6C1</color>
+    <!-- 亮粉红色 -->
+    <!-- 橙色 -->
+    <color name="ui_base_lightsalmon">#FFA07A</color>
+    <!-- 亮肉色 -->
+    <color name="ui_base_darkorange">#FF8C00</color>
+    <!-- 暗桔黄色 -->
+    <color name="ui_base_coral">#FF7F50</color>
+    <!-- 珊瑚色 -->
+    <color name="ui_base_hotpink">#FF69B4</color>
+    <!-- 热粉红色 -->
+    <color name="ui_base_tomato">#FF6347</color>
+    <!-- 西红柿色 -->
+    <color name="ui_base_orangered">#FF4500</color>
+    <!-- 红橙色 -->
+    <color name="ui_base_deeppink">#FF1493</color>
+    <!-- 深粉红色 -->
+    <color name="ui_base_fuchsia">#FF00FF</color>
+    <!-- 紫红色 -->
+    <color name="ui_base_magenta">#FF00FF</color>
+    <!-- 红紫色 -->
+    <!-- 红色 -->
+    <color name="ui_base_oldlace">#FDF5E6</color>
+    <!-- 老花色 -->
+    <color name="ui_base_lightgoldenrodyellow">#FAFAD2</color>
+    <!-- 亮金黄色 -->
+    <color name="ui_base_linen">#FAF0E6</color>
+    <!-- 亚麻色 -->
+    <color name="ui_base_antiquewhite">#FAEBD7</color>
+    <!-- 古董白 -->
+    <color name="ui_base_salmon">#FA8072</color>
+    <!-- 鲜肉色 -->
+    <color name="ui_base_ghostwhite">#F8F8FF</color>
+    <!-- 幽灵白 -->
+    <color name="ui_base_mintcream">#F5FFFA</color>
+    <!-- 薄荷色 -->
+    <color name="ui_base_whitesmoke">#F5F5F5</color>
+    <!-- 烟白色 -->
+    <color name="ui_base_beige">#F5F5DC</color>
+    <!-- 米色 -->
+    <color name="ui_base_wheat">#F5DEB3</color>
+    <!-- 浅黄色 -->
+    <color name="ui_base_sandybrown">#F4A460</color>
+    <!-- 沙褐色 -->
+    <color name="ui_base_azure">#F0FFFF</color>
+    <!-- 天蓝色 -->
+    <color name="ui_base_honeydew">#F0FFF0</color>
+    <!-- 蜜色 -->
+    <color name="ui_base_aliceblue">#F0F8FF</color>
+    <!-- 艾利斯兰 -->
+    <color name="ui_base_khaki">#F0E68C</color>
+    <!-- 黄褐色 -->
+    <color name="ui_base_lightcoral">#F08080</color>
+    <!-- 亮珊瑚色 -->
+    <color name="ui_base_palegoldenrod">#EEE8AA</color>
+    <!-- 苍麒麟色 -->
+    <color name="ui_base_violet">#EE82EE</color>
+    <!-- 紫罗兰色 -->
+    <color name="ui_base_darksalmon">#E9967A</color>
+    <!-- 暗肉色 -->
+    <color name="ui_base_lavender">#E6E6FA</color>
+    <!-- 淡紫色 -->
+    <color name="ui_base_lightcyan">#E0FFFF</color>
+    <!-- 亮青色 -->
+    <color name="ui_base_burlywood">#DEB887</color>
+    <!-- 实木色 -->
+    <color name="ui_base_plum">#DDA0DD</color>
+    <!-- 洋李色 -->
+    <color name="ui_base_gainsboro">#DCDCDC</color>
+    <!-- 淡灰色 -->
+    <color name="ui_base_crimson">#DC143C</color>
+    <!-- 暗深红色 -->
+    <color name="ui_base_palevioletred">#DB7093</color>
+    <!-- 苍紫罗兰色 -->
+    <color name="ui_base_goldenrod">#DAA520</color>
+    <!-- 金麒麟色 -->
+    <color name="ui_base_orchid">#DA70D6</color>
+    <!-- 淡紫色 -->
+    <color name="ui_base_thistle">#D8BFD8</color>
+    <!-- 蓟色 -->
+    <color name="ui_base_lightgray">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <color name="ui_base_lightgrey">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <color name="ui_base_tan">#D2B48C</color>
+    <!-- 茶色 -->
+    <color name="ui_base_chocolate">#D2691E</color>
+    <!-- 巧可力色 -->
+    <color name="ui_base_peru">#CD853F</color>
+    <!-- 秘鲁色 -->
+    <color name="ui_base_indianred">#CD5C5C</color>
+    <!-- 印第安红 -->
+    <color name="ui_base_mediumvioletred">#C71585</color>
+    <!-- 中紫罗兰色 -->
+    <color name="ui_base_silver">#C0C0C0</color>
+    <!-- 银色 -->
+    <color name="ui_base_darkkhaki">#BDB76B</color>
+    <!-- 暗黄褐色 -->
+    <color name="ui_base_rosybrown">#BC8F8F</color>
+    <!-- 褐玫瑰红 -->
+    <color name="ui_base_mediumorchid">#BA55D3</color>
+    <!-- 中粉紫色 -->
+    <color name="ui_base_darkgoldenrod">#B8860B</color>
+    <!-- 暗金黄色 -->
+    <color name="ui_base_firebrick">#B22222</color>
+    <!-- 火砖色 -->
+    <color name="ui_base_powderblue">#B0E0E6</color>
+    <!-- 粉蓝色 -->
+    <color name="ui_base_lightsteelblue">#B0C4DE</color>
+    <!-- 亮钢兰色 -->
+    <color name="ui_base_paleturquoise">#AFEEEE</color>
+    <!-- 苍宝石绿 -->
+    <color name="ui_base_greenyellow">#ADFF2F</color>
+    <!-- 黄绿色 -->
+    <color name="ui_base_lightblue">#ADD8E6</color>
+    <!-- 亮蓝色 -->
+    <color name="ui_base_darkgray">#A9A9A9</color>
+    <!-- 暗灰色 -->
+    <color name="ui_base_darkgrey">#A9A9A9</color>
+    <!-- 暗灰色 -->
+    <color name="ui_base_brown">#A52A2A</color>
+    <!-- 褐色 -->
+    <color name="ui_base_sienna">#A0522D</color>
+    <!-- 赭色 -->
+    <color name="ui_base_darkorchid">#9932CC</color>
+    <!-- 暗紫色 -->
+    <color name="ui_base_palegreen">#98FB98</color>
+    <!-- 苍绿色 -->
+    <color name="ui_base_darkviolet">#9400D3</color>
+    <!-- 暗紫罗兰色 -->
+    <color name="ui_base_mediumpurple">#9370DB</color>
+    <!-- 中紫色 -->
+    <color name="ui_base_lightgreen">#90EE90</color>
+    <!-- 亮绿色 -->
+    <color name="ui_base_darkseagreen">#8FBC8F</color>
+    <!-- 暗海兰色 -->
+    <color name="ui_base_saddlebrown">#8B4513</color>
+    <!-- 重褐色 -->
+    <color name="ui_base_darkmagenta">#8B008B</color>
+    <!-- 暗洋红 -->
+    <color name="ui_base_darkred">#8B0000</color>
+    <!-- 暗红色 -->
+    <color name="ui_base_blueviolet">#8A2BE2</color>
+    <!-- 紫罗兰蓝色 -->
+    <color name="ui_base_lightskyblue">#87CEFA</color>
+    <!-- 亮天蓝色 -->
+    <color name="ui_base_skyblue">#87CEEB</color>
+    <!-- 天蓝色 -->
+    <color name="ui_base_gray">#808080</color>
+    <!-- 灰色 -->
+    <color name="ui_base_grey">#808080</color>
+    <!-- 灰色 -->
+    <color name="ui_base_olive">#808000</color>
+    <!-- 橄榄色 -->
+    <color name="ui_base_purple">#800080</color>
+    <!-- 紫色 -->
+    <color name="ui_base_maroon">#800000</color>
+    <!-- 粟色 -->
+    <color name="ui_base_aquamarine">#7FFFD4</color>
+    <!-- 碧绿色 -->
+    <color name="ui_base_chartreuse">#7FFF00</color>
+    <!-- 黄绿色 -->
+    <color name="ui_base_lawngreen">#7CFC00</color>
+    <!-- 草绿色 -->
+    <color name="ui_base_mediumslateblue">#7B68EE</color>
+    <!-- 中暗蓝色 -->
+    <color name="ui_base_lightslategray">#778899</color>
+    <!-- 亮蓝灰 -->
+    <color name="ui_base_lightslategrey">#778899</color>
+    <!-- 亮蓝灰 -->
+    <color name="ui_base_slategray">#708090</color>
+    <!-- 灰石色 -->
+    <color name="ui_base_slategrey">#708090</color>
+    <!-- 灰石色 -->
+    <color name="ui_base_olivedrab">#6B8E23</color>
+    <!-- 深绿褐色 -->
+    <color name="ui_base_slateblue">#6A5ACD</color>
+    <!-- 石蓝色 -->
+    <color name="ui_base_dimgray">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="ui_base_dimgrey">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="ui_base_mediumaquamarine">#66CDAA</color>
+    <!-- 中绿色 -->
+    <color name="ui_base_cornflowerblue">#6495ED</color>
+    <!-- 菊兰色 -->
+    <color name="ui_base_cadetblue">#5F9EA0</color>
+    <!-- 军兰色 -->
+    <color name="ui_base_darkolivegreen">#556B2F</color>
+    <!-- 暗橄榄绿 -->
+    <color name="ui_base_indigo">#4B0082</color>
+    <!-- 靛青色 -->
+    <color name="ui_base_mediumturquoise">#48D1CC</color>
+    <!-- 中绿宝石 -->
+    <color name="ui_base_darkslateblue">#483D8B</color>
+    <!-- 暗灰蓝色 -->
+    <color name="ui_base_steelblue">#4682B4</color>
+    <!-- 钢兰色 -->
+    <color name="ui_base_royalblue">#4169E1</color>
+    <!-- 皇家蓝 -->
+    <color name="ui_base_turquoise">#40E0D0</color>
+    <!-- 青绿色 -->
+    <color name="ui_base_mediumseagreen">#3CB371</color>
+    <!-- 中海蓝 -->
+    <color name="ui_base_limegreen">#32CD32</color>
+    <!-- 橙绿色 -->
+    <color name="ui_base_darkslategray">#2F4F4F</color>
+    <!-- 暗瓦灰色 -->
+    <color name="ui_base_darkslategrey">#2F4F4F</color>
+    <!-- 暗瓦灰色 -->
+    <color name="ui_base_seagreen">#2E8B57</color>
+    <!-- 海绿色 -->
+    <color name="ui_base_forestgreen">#228B22</color>
+    <!-- 森林绿 -->
+    <color name="ui_base_lightseagreen">#20B2AA</color>
+    <!-- 亮海蓝色 -->
+    <color name="ui_base_dodgerblue">#1E90FF</color>
+    <!-- 闪兰色 -->
+    <color name="ui_base_midnightblue">#191970</color>
+    <!-- 中灰兰色 -->
+    <color name="ui_base_aqua">#00FFFF</color>
+    <!-- 浅绿色 -->
+    <color name="ui_base_cyan">#00FFFF</color>
+    <!-- 青色 -->
+    <color name="ui_base_springgreen">#00FF7F</color>
+    <!-- 春绿色 -->
+    <color name="ui_base_lime">#00FF00</color>
+    <!-- 酸橙色 -->
+    <color name="ui_base_mediumspringgreen">#00FA9A</color>
+    <!-- 中春绿色 -->
+    <color name="ui_base_darkturquoise">#00CED1</color>
+    <!-- 暗宝石绿 -->
+    <color name="ui_base_deepskyblue">#00BFFF</color>
+    <!-- 深天蓝色 -->
+    <color name="ui_base_darkcyan">#008B8B</color>
+    <!-- 暗青色 -->
+    <color name="ui_base_teal">#008080</color>
+    <!-- 水鸭色 -->
+    <!-- 绿色 -->
+    <color name="ui_base_darkgreen">#006400</color>
+    <!-- 暗绿色 -->
+    <!-- 蓝色 -->
+    <color name="ui_base_mediumblue">#0000CD</color>
+    <!-- 中兰色 -->
+    <color name="ui_base_darkblue">#00008B</color>
+    <!-- 暗蓝色 -->
+    <color name="ui_base_navy">#000080</color>
+    <!-- 海军色 -->
+    <!-- 黑色 -->
+
+
+    <!-- GViewPager的Start -->
+    <color name="ui_base_lucensy">#00000001</color>
+    <color name="ui_base_translucency">#e0000000</color>
+    <color name="ui_base_orange">#ffa500</color>
+    <!-- <color name="red">#bf242a</color> -->
+    <color name="ui_base_transparent">#00000000</color>
+    <color name="ui_base_light_orange">#fcb75c</color>
+    <color name="ui_base_alpha_00">#00000000</color>
+    <color name="ui_base_trans">#50000000</color>
+    <color name="ui_base_background">#e5e5e5</color>
+    <color name="ui_base_transparent_background">#50000000</color>
+    <color name="ui_base_text_gray">#4F4F4F</color>
+    <color name="ui_base_grey21">#363636</color>
+    <color name="ui_base_gold">#b89766</color>
+    <!-- GViewPager的End -->
+
+    <color name="ui_base_main_background">#d3d3d3</color>
+    <color name="ui_base_text_color">#ffffff</color>
+    <color name="ui_base_text_background">#9f9f9f</color>
+    <color name="ui_base_text_color_black">#000000</color>
+    <color name="ui_base_text_color_dialog">#6F6868</color>
+    <color name="ui_base_text_color_dialog_title">#4e5d72</color>
+    <color name="ui_base_text_color_blue">#4fc1e9</color>
+    <color name="ui_base_holo_blue">#FF33E5B5</color>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Serial port setup">
+    <ListPreference
+        android:key="port_qudongban"
+        android:persistent="true"
+        android:title="@string/port_qudongban"></ListPreference>
+    <ListPreference
+        android:entries="@array/base_baudrates_name"
+        android:entryValues="@array/base_baudrates_value"
+        android:key="port_qudongban_bote"
+        android:persistent="true"
+        android:title="@string/port_qudongban_bote"></ListPreference>
+
+    <ListPreference
+        android:key="port_485"
+        android:persistent="true"
+        android:title="@string/port_485"></ListPreference>
+    <ListPreference
+        android:entries="@array/base_baudrates_name"
+        android:entryValues="@array/base_baudrates_value"
+        android:key="port_485_bote"
+        android:persistent="true"
+        android:title="@string/port_485_bote"></ListPreference>
+
+    <ListPreference
+        android:key="port_rfid"
+        android:persistent="true"
+        android:title="@string/port_rfid"></ListPreference>
+    <ListPreference
+        android:entries="@array/base_baudrates_name"
+        android:entryValues="@array/base_baudrates_value"
+        android:key="port_rfid_bote"
+        android:persistent="true"
+        android:title="@string/port_rfid_bote"></ListPreference>
+</PreferenceScreen>

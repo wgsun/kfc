@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80px"
+    android:layout_height="110px"
+    android:background="@drawable/shape_rect_white_black"
+    android:orientation="vertical"
+    android:padding="1px">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:text="未知" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/black" />
+
+    <TextView
+        android:id="@+id/item_act"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="落料"
+        android:textSize="18px" />
+
+</LinearLayout>

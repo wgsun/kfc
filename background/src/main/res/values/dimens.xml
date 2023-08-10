@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <dimen name="debug_top">20px</dimen>
+    <dimen name="debug_height">60px</dimen>
+    <dimen name="raw_height">60px</dimen>
+    <dimen name="raw_top">30px</dimen>
+    <dimen name="um_hand_top">20px</dimen>
+    <dimen name="um_hand_height">50px</dimen>
+    <dimen name="menu_back_top_h">50px</dimen>
+    <dimen name="ui_base_btn_batch_20">20px</dimen>
+    <dimen name="ui_base_btn_batch_25">25px</dimen>
+    <dimen name="parm_setting_height">100px</dimen>
+    <dimen name="ui_btn_batch_25">25px</dimen>
+    <dimen name="ui_btn_batch_20">20px</dimen>
+
+</resources>

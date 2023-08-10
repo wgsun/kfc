@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/item_top_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_back_top_h" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:gravity="center"
+        android:textSize="24px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:layout_marginLeft="50px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/serial_query"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="查询状态"
+            android:textAllCaps="false"
+            android:textSize="25px" />
+
+        <Button
+            android:id="@+id/serial_clean"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60px"
+            android:gravity="center"
+            android:text="清除故障"
+            android:textAllCaps="false"
+            android:textSize="25px" />
+
+        <Button
+            android:id="@+id/serial_drive_setting"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:gravity="center"
+            android:text="查询机器配置命令"
+            android:textAllCaps="false"
+            android:textSize="25px"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/serial_drive_info"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300px"
+            android:gravity="center"
+            android:text="查询驱动板信息命令"
+            android:textAllCaps="false"
+            android:textSize="25px" />
+    </LinearLayout>
+
+    <com.hua.back.base.ui.ButtonEditSelectD
+        android:id="@+id/bd_querystate"
+        style="@style/setting_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/parm_setting_height"
+        android:layout_marginTop="40dp" />
+
+    <com.hua.back.base.ui.ButtonEditSelectD
+        android:id="@+id/bd_action"
+        style="@style/setting_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/parm_setting_height"
+        android:layout_marginTop="40dp" />
+
+    <com.hua.back.base.ui.ButtonEditSelectD
+        android:id="@+id/bd_query_parm"
+        style="@style/setting_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/parm_setting_height"
+        android:layout_marginTop="40dp" />
+
+    <com.hua.back.base.ui.ButtonEditSelectD
+        android:id="@+id/bd_set_parm"
+        style="@style/setting_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/parm_setting_height"
+        android:layout_marginTop="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:gravity="center"
+            android:text="花样号: "
+            android:textSize="30px" />
+
+        <EditText
+            android:id="@+id/kfc_setting_ship_slot"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:background="@drawable/ui_circlebuttonstyle"
+            android:inputType="number"
+            android:maxLength="8"
+            android:textSize="30px" />
+
+        <EditText
+            android:id="@+id/kfc_setting_ship_data"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:background="@drawable/ui_circlebuttonstyle"
+            android:hint="出货所需的数据"
+            android:maxLength="8" />
+
+        <Button
+            android:id="@+id/btn_ship"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:gravity="center"
+            android:text="出货"
+            android:textAllCaps="false"
+            android:textSize="25px" />
+
+    </LinearLayout>
+
+</LinearLayout>

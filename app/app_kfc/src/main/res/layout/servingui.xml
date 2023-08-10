@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30px"
+    android:paddingRight="30px"
+    tools:ignore="MissingDefaultResource">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/main_title"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/buy_top"
+                android:text="2021-08-04  11:10" />
+
+            <TextView
+                style="@style/buy_top"
+                android:text="温度：-10°C" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <TextView
+                style="@style/buy_top"
+                android:text="ID:1234567890" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112px"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+
+            <include
+                android:id="@+id/item_ll_0"
+                layout="@layout/item_flow_jiq" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <include
+                android:id="@+id/item_ll_1"
+                layout="@layout/item_flow_jiq" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <include
+                android:id="@+id/item_ll_2"
+                layout="@layout/item_flow_jiq" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <include
+                android:id="@+id/item_ll_3"
+                layout="@layout/item_flow_jiq" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112px"
+            android:layout_marginTop="15px"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+
+            <include
+                android:id="@+id/item_ll_4"
+                layout="@layout/item_flow_jiq" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <include
+                android:id="@+id/item_ll_5"
+                layout="@layout/item_flow_jiq" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <include
+                android:id="@+id/item_ll_6"
+                layout="@layout/item_flow_jiq" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <include
+                android:id="@+id/item_ll_7"
+                layout="@layout/item_flow_jiq" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5px"
+        android:layout_marginBottom="5px"
+        android:background="@drawable/shape_rect_white_black"
+        android:orientation="vertical"
+        android:paddingLeft="15px"
+        android:paddingRight="15px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_margin="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv__kfc_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/green"
+                android:textSize="16px"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn__kfc_um"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30px"
+                android:text="更换榨油"
+                android:textSize="25px"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250px"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rect_gray_black"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name0"
+                    android:layout_width="170px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="薯\u3000\u3000条"
+                    android:textColor="@color/black"
+                    android:textSize="30px"
+                    android:typeface="monospace" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/food_staes0"
+                    android:layout_width="80px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="足料"
+                    android:textColor="@color/kfc_green"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50px"
+                android:background="@drawable/shape_rect_gray_black"
+                android:orientation="horizontal"
+                android:padding="1px">
+
+                <LinearLayout
+                    android:layout_width="60px"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/icon_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="30px"
+                        android:layout_marginTop="3px"
+                        android:src="@drawable/icon_up" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="3px"
+                        android:src="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="限值1-6"
+                        android:textSize="13px" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="3px"
+                        android:src="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/icon_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="30px"
+                        android:layout_marginTop="10px"
+                        android:src="@drawable/icon_down" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_food_num"
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2份"
+                    android:textColor="@color/black"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_food_eight"
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="220g"
+                    android:textColor="@color/black"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_peizha0"
+                style="@style/kfc_btn_peizha"
+                android:text="点击烹炸" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_marginTop="20px"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250px"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rect_gray_black"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name1"
+
+                    android:layout_width="170px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="波纹薯条"
+                    android:textColor="@color/black"
+                    android:textSize="30px"
+                    android:typeface="monospace" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/food_staes1"
+                    android:layout_width="80px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="足料"
+                    android:textColor="@color/kfc_green"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50px"
+                android:background="@drawable/shape_rect_gray_black"
+                android:orientation="horizontal"
+                android:padding="1px">
+
+                <LinearLayout
+                    android:layout_width="60px"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/icon_up1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30px"
+                        android:layout_marginTop="3px"
+                        android:src="@drawable/icon_up" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="3px"
+                        android:src="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="限值1-6"
+                        android:textSize="13px" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="3px"
+                        android:src="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/icon_down1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30px"
+                        android:layout_marginTop="10px"
+                        android:src="@drawable/icon_down" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_food_num1"
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2份"
+                    android:textColor="@color/black"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_food_eight1"
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="220g"
+                    android:textColor="@color/black"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_peizha1"
+
+                style="@style/kfc_btn_peizha"
+                android:text="点击烹炸" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250px"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rect_gray_black"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name2"
+                    android:layout_width="170px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="黄金鸡块"
+                    android:textColor="@color/black"
+                    android:textSize="30px"
+                    android:typeface="monospace" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/food_staes2"
+                    android:layout_width="80px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="足料"
+                    android:textColor="@color/kfc_green"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50px"
+                android:background="@drawable/shape_rect_gray_black"
+                android:orientation="horizontal"
+                android:padding="1px">
+
+                <LinearLayout
+                    android:layout_width="60px"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/icon_up2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30px"
+                        android:layout_marginTop="3px"
+                        android:src="@drawable/icon_up" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="3px"
+                        android:src="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="限值1-9"
+                        android:textSize="13px" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="3px"
+                        android:src="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/icon_down2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30px"
+                        android:layout_marginTop="10px"
+                        android:src="@drawable/icon_down" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_food_num2"
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2份"
+
+                    android:textColor="@color/black"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:src="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_food_eight2"
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="220g"
+                    android:textColor="@color/black"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_peizha2"
+
+                style="@style/kfc_btn_peizha"
+                android:text="点击烹炸" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="220px"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rect_gray_black"
+                android:gravity="center"
+                android:text="插单"
+                android:textColor="@color/black"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/chadan_meat"
+                android:layout_width="80px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50px"
+                android:background="@drawable/shape_rect_gray_black"
+                android:gravity="center"
+                android:text="大鸡块"
+                android:textColor="@color/black"
+                android:textSize="25px" />
+
+            <TextView
+                android:id="@+id/chadan_plan"
+                android:layout_width="80px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px"
+                android:background="@drawable/shape_rect_gray_black"
+                android:gravity="center"
+                android:text="红豆派"
+                android:textColor="@color/black"
+                android:textSize="25px" />
+
+            <TextView
+                android:id="@+id/chadan_three"
+                android:layout_width="80px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px"
+                android:background="@drawable/shape_rect_green_black"
+                android:gravity="center"
+                android:text="红豆派"
+                android:textColor="@color/black"
+                android:textSize="25px" />
+
+            <TextView
+                android:id="@+id/btn_peizha3"
+                style="@style/kfc_btn_peizha"
+                android:text="点击烹炸" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="20px"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="320px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_zhalu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:textSize="13px" />
+
+                <TextView
+                    android:id="@+id/tv_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green"
+                    android:textSize="15px" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_s"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="20px"
+                android:src="@drawable/iv_setting" />
+
+            <TextView
+                android:id="@+id/btn_help"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="20px"
+                android:background="@drawable/shape_rect_white_black"
+                android:gravity="center"
+                android:text="扫描\n篮子"
+                android:textSize="20px" />
+
+            <TextView
+                android:id="@+id/btn_clean_error"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="20px"
+                android:background="@drawable/shape_rect_white_black"
+                android:gravity="center"
+                android:text="清空\n故障"
+                android:textSize="20px" />
+
+            <TextView
+                android:id="@+id/btn_clean"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="20px"
+                android:background="@drawable/shape_rect_white_black"
+                android:gravity="center"
+                android:text="清空\n订单"
+                android:textSize="20px" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="5px"
+        android:layout_marginBottom="5px"
+        android:background="@drawable/shape_rect_white_black"
+        android:orientation="vertical"
+        android:padding="10px">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy_showinfo"
+            android:layout_width="match_parent"
+            android:layout_height="400px" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:color="#000000" />
+
+        <TextView
+            android:id="@+id/tv_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:textColor="@color/ui_gray"
+            android:textSize="15px"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy_showhistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

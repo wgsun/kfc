@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ResourceName">
+
+    <TextView
+        android:id="@+id/btn_edit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textAllCaps="false"
+        android:textColor="@color/ui_base_text_color_black"
+        android:textSize="25px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_edit_name"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_edit_query_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/btn_edit_linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btn_edit_name"
+            android:layout_weight="3"
+            android:background="@drawable/ui_base_circlebuttonstyle"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/btn_edit_edit_select"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/ui_base_button_green_normal"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColorHighlight="@color/ui_base_text_background"
+                android:textSize="25px" />
+
+            <TextView
+                android:id="@+id/btn_edit_select_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/ui_base_text_background" />
+
+            <Button
+                android:id="@+id/btn_edit_select_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/btn_edit_display"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
